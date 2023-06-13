@@ -2,6 +2,11 @@ import { createCampaign, dashboard, logout, payment, profile, withdraw } from '.
 
 export const navlinks = [
   {
+    name: 'about',
+    imgUrl: dashboard,
+    link: '/about'
+  },
+  {
     name: 'dashboard',
     imgUrl: dashboard,
     link: '/',
